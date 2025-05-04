@@ -1,16 +1,16 @@
 module.exports = {
-  title: 'Storybook ve Docusaurus Entegrasyonu',
-  tagline: 'Bileşen dokümantasyonu örneği',
-  url: 'https://storybook-docusaurus-example.vercel.app',
+  title: 'TKUI Design System',
+  tagline: 'Shared component documentation',
+  url: 'http://localhost',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'zeynebozdem',
-  projectName: 'storybook-docusaurus-example',
+  organizationName: 'tkui-ds',
+  projectName: 'tkui-ds',
   i18n: {
-    defaultLocale: 'tr',
-    locales: ['tr', 'en'],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
   presets: [
     [
@@ -28,63 +28,4 @@ module.exports = {
       },
     ],
   ],
-  themeConfig: {
-    navbar: {
-      title: 'Bileşen Kütüphanesi',
-      items: [
-        {
-          to: '/docs/components/button',
-          position: 'left',
-          label: 'Bileşenler',
-        },
-        {
-          href: '/storybook',
-          position: 'right',
-          label: 'Storybook',
-        },
-        {
-          href: 'https://github.com/zeynebozdem/storybook-docusaurus-example',
-          position: 'right',
-          className: 'header-github-link',
-          'aria-label': 'GitHub repository',
-        },
-      ],
-    },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Bileşenler',
-          items: [
-            {
-              label: 'Button',
-              to: '/docs/components/button',
-            },
-            {
-              label: 'Input',
-              to: '/docs/components/input',
-            },
-            {
-              label: 'Checkbox',
-              to: '/docs/components/checkbox',
-            },
-          ],
-        },
-        {
-          title: 'Araçlar',
-          items: [
-            {
-              label: 'Storybook',
-              href: '/storybook',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/zeynebozdem/storybook-docusaurus-example',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Storybook Docusaurus Örneği.`,
-    },
-  },
 }; 

@@ -2,7 +2,7 @@ import type { StorybookConfig } from '@storybook/react-webpack5';
 import * as path from 'path';
 
 const config: StorybookConfig = {
-  stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
+  stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx|mdx)'],
   addons: [
     '@storybook/addon-links',
     '@storybook/addon-essentials',
@@ -14,14 +14,6 @@ const config: StorybookConfig = {
   },
   docs: {
     autodocs: true
-  },
-  staticDirs: ['../public'],
-  // Vercel üzerindeki konumlandırma için temel URL ayarı
-  viteFinal: async (config: any, { configType }: { configType: string }) => {
-    if (configType === 'PRODUCTION') {
-      config.base = '/storybook/';
-    }
-    return config;
   },
   typescript: {
     check: false,

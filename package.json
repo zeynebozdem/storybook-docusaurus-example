@@ -8,10 +8,7 @@
   ],
   "scripts": {
     "storybook": "npm run storybook --workspace=packages/core",
-    "docs": "npm run start --workspace=docusaurus",
-    "build:storybook": "npm run build-storybook --workspace=packages/core",
-    "build:docs": "npm run build --workspace=docusaurus",
-    "build:all": "npm run build:storybook && npm run build:docs"
+    "docs": "npm run start --workspace=docusaurus"
   },
   "devDependencies": {
     "@storybook/cli": "^8.6.12"

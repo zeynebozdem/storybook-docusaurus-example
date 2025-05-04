@@ -28,10 +28,10 @@ export default {
         "docs": {
           "path": "../docs-content",
           "routeBasePath": "docs/components",
-          "sidebarPath": "/Users/zeynepozdem/Desktop/TKUI-DS/docusaurus/sidebars.js"
+          "sidebarPath": "/Users/zeynepozdem/Desktop/storybook-docusaurus-example/docusaurus/sidebars.js"
         },
         "theme": {
-          "customCss": "/Users/zeynepozdem/Desktop/TKUI-DS/docusaurus/src/css/custom.css"
+          "customCss": "/Users/zeynepozdem/Desktop/storybook-docusaurus-example/docusaurus/src/css/custom.css"
         }
       }
     ]

@@ -13,14 +13,9 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
-            className="button button--primary button--lg margin-right--md"
+            className="button button--primary button--lg"
             to="/docs/components/button">
             Bileşenleri Keşfet
-          </Link>
-          <Link
-            className="button button--secondary button--lg"
-            to="/storybook">
-            Storybook'a Git
           </Link>
         </div>
       </div>
@@ -33,7 +28,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Storybook ve Docusaurus Entegrasyonu Örneği">
+      description="TKUI Tasarım Sistemi ve Bileşen Dokümantasyonu">
       <HomepageHeader />
       <main>
         <div className="container margin-vert--xl">
@@ -67,7 +62,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="card__footer">
-                  <Link to="/storybook" className="button button--outline button--primary button--block">
+                  <Link to="http://localhost:6006" className="button button--outline button--primary button--block">
                     Storybook'u Aç
                   </Link>
                 </div>
