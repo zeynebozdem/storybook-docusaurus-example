@@ -1,0 +1,35 @@
+import { Meta, Story, Canvas, Description } from '@storybook/addon-docs';
+import { Modal } from './Modal';
+import { useState } from 'react';
+import ModalDocContent from '../../../../docs-content/modal.md?raw';
+
+<Meta title="Components/Modal" component={Modal} />
+
+<Description markdown={ModalDocContent} />
+
+## Examples
+
+export const ModalExample = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  
+  return (
+    <>
+      <button onClick={() => setIsOpen(true)}>
+        Modalı Aç
+      </button>
+      <Modal 
+        title="Örnek Modal" 
+        isOpen={isOpen} 
+        onClose={() => setIsOpen(false)}
+      >
+        <p>Bu bir modal içeriğidir. Kullanıcıya bir bilgi göstermek veya bir işlem yaptırmak için kullanılır.</p>
+      </Modal>
+    </>
+  );
+};
+
+<Canvas>
+  <Story name="Default">
+    <ModalExample />
+  </Story>
+</Canvas> 

@@ -1,0 +1,19 @@
+{
+  "id": "button",
+  "title": "Button",
+  "description": "The Button component is used to trigger an action or event.",
+  "source": "@site/../docs-content/button.md",
+  "sourceDirName": ".",
+  "slug": "/button",
+  "permalink": "/docs/components/button",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "next": {
+    "title": "Checkbox",
+    "permalink": "/docs/components/checkbox"
+  }
+}

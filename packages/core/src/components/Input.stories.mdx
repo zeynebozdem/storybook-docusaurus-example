@@ -1,0 +1,37 @@
+import { Meta, Story, Canvas, Description } from '@storybook/addon-docs';
+import { Input } from './Input';
+import InputDocContent from '../../../../docs-content/input.md?raw';
+
+<Meta title="Components/Input" component={Input} />
+
+<Description markdown={InputDocContent} />
+
+## Examples
+
+<Canvas>
+  <Story name="Default">
+    <Input label="Kullanıcı adı" placeholder="Kullanıcı adınızı girin" />
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story name="Password">
+    <Input label="Şifre" type="password" placeholder="********" />
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story name="Required">
+    <Input label="Email" type="email" required={true} placeholder="ornek@mail.com" />
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story name="Error">
+    <Input 
+      label="Kullanıcı adı" 
+      placeholder="Kullanıcı adınızı girin" 
+      error="Bu alan zorunludur"
+    />
+  </Story>
+</Canvas> 

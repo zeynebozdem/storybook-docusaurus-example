@@ -1,0 +1,27 @@
+import { Meta, Story, Canvas, Description } from '@storybook/addon-docs';
+import { Checkbox } from './Checkbox';
+import CheckboxDocContent from '../../../../docs-content/checkbox.md?raw';
+
+<Meta title="Components/Checkbox" component={Checkbox} />
+
+<Description markdown={CheckboxDocContent} />
+
+## Examples
+
+<Canvas>
+  <Story name="Default">
+    <Checkbox label="Kabul ediyorum" />
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story name="Checked">
+    <Checkbox label="Kabul ediyorum" defaultChecked={true} />
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story name="Disabled">
+    <Checkbox label="Kabul ediyorum" disabled={true} />
+  </Story>
+</Canvas> 

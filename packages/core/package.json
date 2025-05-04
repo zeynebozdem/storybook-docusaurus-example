@@ -1,0 +1,35 @@
+{
+  "name": "@tkui-ds/core",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "storybook": "sb dev -p 6006",
+    "build-storybook": "sb build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.27.1",
+    "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
+    "@mdx-js/react": "^3.1.0",
+    "@storybook/addon-actions": "^7.6.0",
+    "@storybook/addon-docs": "^7.6.0",
+    "@storybook/addon-essentials": "^7.6.0",
+    "@storybook/addon-links": "^7.6.0",
+    "@storybook/builder-webpack5": "^7.6.20",
+    "@storybook/cli": "^7.6.20",
+    "@storybook/react": "^7.6.0",
+    "@storybook/react-webpack5": "^7.6.20",
+    "@types/react": "^18.2.0",
+    "babel-loader": "^9.1.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-react-app": "^10.1.0",
+    "raw-loader": "^4.0.2",
+    "typescript": "^5.0.0"
+  }
+}

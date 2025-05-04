@@ -1,0 +1,35 @@
+import { Meta, Story, Canvas, Description } from '@storybook/addon-docs';
+import { Dropdown } from './Dropdown';
+import DropdownDocContent from '../../../../docs-content/dropdown.md?raw';
+
+<Meta title="Components/Dropdown" component={Dropdown} />
+
+<Description markdown={DropdownDocContent} />
+
+## Examples
+
+export const options = [
+  { value: 'apple', label: 'Elma' },
+  { value: 'banana', label: 'Muz' },
+  { value: 'orange', label: 'Portakal' },
+  { value: 'grape', label: 'Üzüm' },
+  { value: 'strawberry', label: 'Çilek' },
+];
+
+<Canvas>
+  <Story name="Default">
+    <Dropdown label="Meyve Seçin" options={options} />
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story name="With Default Value">
+    <Dropdown label="Meyve Seçin" options={options} defaultValue="banana" />
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story name="Disabled">
+    <Dropdown label="Meyve Seçin" options={options} disabled={true} />
+  </Story>
+</Canvas> 

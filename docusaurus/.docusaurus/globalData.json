@@ -1,0 +1,59 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs/components",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs/components",
+          "mainDocId": "button",
+          "docs": [
+            {
+              "id": "button",
+              "path": "/docs/components/button",
+              "sidebar": "docs"
+            },
+            {
+              "id": "checkbox",
+              "path": "/docs/components/checkbox",
+              "sidebar": "docs"
+            },
+            {
+              "id": "dropdown",
+              "path": "/docs/components/dropdown",
+              "sidebar": "docs"
+            },
+            {
+              "id": "input",
+              "path": "/docs/components/input",
+              "sidebar": "docs"
+            },
+            {
+              "id": "modal",
+              "path": "/docs/components/modal",
+              "sidebar": "docs"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "components": {
+              "link": {
+                "path": "/docs/components/button",
+                "label": "button"
+              }
+            },
+            "docs": {
+              "link": {
+                "path": "/docs/components/button",
+                "label": "button"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

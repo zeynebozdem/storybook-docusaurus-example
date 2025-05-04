@@ -1,0 +1,27 @@
+import { Meta, Story, Canvas, Description } from '@storybook/addon-docs';
+import { Button } from './Button';
+import ButtonDocContent from '../../../../docs-content/button.md?raw';
+
+<Meta title="Components/Button" component={Button} />
+
+<Description markdown={ButtonDocContent} />
+
+## Examples
+
+<Canvas>
+  <Story name="Primary">
+    <Button variant="primary">Primary Button</Button>
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story name="Secondary">
+    <Button variant="secondary">Secondary Button</Button>
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story name="Disabled">
+    <Button disabled>Disabled Button</Button>
+  </Story>
+</Canvas> 

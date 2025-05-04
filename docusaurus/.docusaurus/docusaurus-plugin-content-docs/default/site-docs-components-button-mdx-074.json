@@ -1,0 +1,15 @@
+{
+  "id": "components/button",
+  "title": "button",
+  "description": "",
+  "source": "@site/docs/components/button.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/button",
+  "permalink": "/docs/components/button",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs"
+}

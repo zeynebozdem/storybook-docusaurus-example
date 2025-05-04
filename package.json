@@ -1,0 +1,16 @@
+{
+  "name": "storybook-docusaurus-example",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "docusaurus"
+  ],
+  "scripts": {
+    "storybook": "npm run storybook --workspace=packages/core",
+    "docs": "npm run start --workspace=docusaurus"
+  },
+  "devDependencies": {
+    "@storybook/cli": "^8.6.12"
+  }
+}
