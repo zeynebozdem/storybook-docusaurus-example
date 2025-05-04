@@ -1,5 +1,5 @@
 {
-  "name": "@tkui-ds/core",
+  "name": "@storybook-docusaurus-example/core",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
